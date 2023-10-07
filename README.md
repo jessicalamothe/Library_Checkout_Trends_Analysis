@@ -15,11 +15,16 @@ Once my data was extracted, I used Tableau to create an interactive visualizatio
 ## Table of Contents
 
 [Business Questions](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#business-questions)
-[Data Exploration and Cleaning] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#data-exploration-and-cleaning)
-[Data Analysis] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#data-analysis)
-[Tables Created] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#tables-created)
-[Dashboard] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#dashboard)
-[Conclusions and Recommendations] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#conclusions-and-recommendations)
+
+[Data Exploration and Cleaning](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#data-exploration-and-cleaning)
+
+[Data Analysis](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#data-analysis)
+
+[Tables Created](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#tables-created)
+
+[Dashboard](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#dashboard)
+
+[Conclusions and Recommendations](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#conclusions-and-recommendations)
 
 ## Business Questions
 
@@ -188,7 +193,8 @@ ORDER BY CheckoutYear DESC, RN ASC;
 
 ## Tables Created
 
-(1) Total checkouts per year of physical books, ebooks, digital audiobooks, and physical audiobooks from 2006 to 2022 
+(1) Total checkouts per year of physical books, ebooks, digital audiobooks, and physical audiobooks from 2006 to 2022
+
 (2) Top 5 most checked out books across the four formats from 2006 to 2022
 
 [See tables here](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis/blob/main/library_checkout_analysis_tables.xlsx)
