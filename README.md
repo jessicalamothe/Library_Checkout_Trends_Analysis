@@ -12,16 +12,16 @@ Once my data was extracted, I used Tableau to create an interactive visualizatio
 
 [Article on LinkedIn](https://www.linkedin.com/pulse/rise-digital-library-books-17-years-data-from-seattle-jessica-lamothe)
 
-##Table of Contents
+## Table of Contents
 
-[Business Questions](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#business-questions) 
+[Business Questions](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#business-questions)
 [Data Exploration and Cleaning] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#data-exploration-and-cleaning)
 [Data Analysis] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#data-analysis)
 [Tables Created] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#tables-created)
 [Dashboard] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#dashboard)
 [Conclusions and Recommendations] (https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis#conclusions-and-recommendations)
 
-##Business Questions
+## Business Questions
 
 The shift to digital book formats, including both ebooks and digital audiobooks, is a major ongoing change in the library and publishing sectors. Digital readership is growing: In 2021, 39% of adult American readers used ebooks and 31% used audiobooks, up from 22% and 14% in 2011, while printed book use dropped from 93% to 85% in the same period.[^1]
 
@@ -29,17 +29,17 @@ The shift to digital book formats, including both ebooks and digital audiobooks,
 
 With this in mind, I chose to focus my analysis on the following questions:
 
-**How many physical books and audiobooks were borrowed per year, and how many digital ebooks and audiobooks?**
+**1. How many physical books and audiobooks were borrowed per year, and how many digital ebooks and audiobooks?**
 
-**How were checkout numbers for each of the four book formats affected by the COVID-19 pandemic?**
+**2. How were checkout numbers for each of the four book formats affected by the COVID-19 pandemic?**
 
-**What were the top 5 books borrowed per year for each format?**
+**3. What were the top 5 books borrowed per year for each format?**
 
 The primary audience envisaged was the Seattle Public Library’s leadership team. By identifying trends in user demand for different book formats, this analysis aimed to inform strategic planning, allowing leaders to efficiently invest in collections to meet the current and forecasted demand.
 
 In addition, I wanted to create a dashboard that was of general public interest, to share the story this data tells us about changing book readership.
 
-##Data Exploration and Cleaning
+## Data Exploration and Cleaning
 
 The data consisted of:
 
@@ -69,9 +69,9 @@ Result: field appears to be used consistently, with no null values. There are 71
 
 - Examine the numerical values in Checkouts (the number of times an item was checked out per month). Min: 1, Max: 4903, second highest: 2950, average: 3.48. I examined the top 20 and found that the highest few checkout numbers were outliers. Most were headphones and laptops, but interestingly, nine were ebooks and audiobooks. The top borrowed item in a single month was So You Want to Talk about Race, with 4903 	checkouts in June 2020. Research confirmed that these outlying ebooks and audiobooks were in a special ‘always available’ format, allowing multiple users to borrow them simultaneously.
 
-##Data Analysis
+## Data Analysis
 
-###Part 1: Number of Loans Per Year by Material Type
+### Part 1: Number of Loans Per Year by Material Type
 
 I wanted to find the total number of checkouts per year for four material types: physical books, ebooks, physical audiobooks, and digital audiobooks.
 
@@ -132,7 +132,7 @@ By studying the data I found I could filter out the music using the Subjects fie
 
 I inserted this filter into my first query to find the number of physical audiobook checkouts, and used Excel to add the results to my table of checkouts per year.
 
-###Part 2: Top Titles Per Year
+### Part 2: Top Titles Per Year
 
 For the next part of my analysis, I wanted to find the top 5 most checked out titles per year for each of the four material types.
 
@@ -186,14 +186,16 @@ RN <6
 ORDER BY CheckoutYear DESC, RN ASC;
 ```
 
-##Tables Created
+## Tables Created
 
 (1) Total checkouts per year of physical books, ebooks, digital audiobooks, and physical audiobooks from 2006 to 2022 
 (2) Top 5 most checked out books across the four formats from 2006 to 2022
 
-[See tables here](main/library_checkout_analysis_tables.xlxs)
+[See tables here](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis/blob/main/library_checkout_analysis_tables.xlsx)
 
-##Dashboard
+## Dashboard
+
+![The Rise of Digital Library Books: 17 Years of Data from the Seattle Public Library](https://github.com/jessicalamothe/Library_Checkout_Trends_Analysis/assets/144539075/90b8890c-5e88-4067-8053-b2dcd4cef865)
 
 [Dashboard on Tableau Public](https://public.tableau.com/app/profile/jessica.lamothe/viz/SPLCheckoutsViz/Dashboard1)
 
@@ -205,7 +207,7 @@ The visual focal point is a set of four icons I created to represent the four bo
 
 Below this, there is a text table showing the top 5 borrowed titles per year for each book format. Viewers can filter by year using the drop-down.
 
-##Conclusions and Recommendations
+## Conclusions and Recommendations
 
 Conclusions:
 
